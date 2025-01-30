@@ -1,0 +1,16 @@
+[
+    {
+        "command": "npm run dev",
+        "cwd": "${workspaceFolder}/web",
+        "name": "web run",
+        "request": "launch",
+        "type": "node-terminal"
+    },
+    {
+        "name": "web debug",
+        "request": "launch",
+        "type": "firefox",
+        "url": "http://localhost:5173",
+        "webRoot": "${workspaceFolder}/web"
+    }
+]
